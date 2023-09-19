@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b072e6284d5f9f43b3c2cf801d4084e, type: 3}
+  m_Name: Scene_0002_Casino
+  m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 8300000, guid: f87b7f97c7256f94d9a521fa49190f27, type: 3}
+  bossBattleMusic_Ace: {fileID: 0}
+  playerFootsteps: []
+  enemyFootsteps: []
+  enemyCasinoStaffVoiceQuotes: []
+  enemyAceVoiceQuotes: []
+  aceTaunt: []
+  bing: {fileID: 0}
+  changeWeaponSound: {fileID: 0}
+  changeAmmunitionSound: {fileID: 0}
+  announcementPlayerWin: {fileID: 0}
+  announcementPlayerLoss: {fileID: 0}
+  weaponTriggerPull: {fileID: 0}
+  shotgunShot: {fileID: 0}
+  shotgunPumpAction: {fileID: 0}
+  shotgunShellDrop: {fileID: 0}
+  shotgunShellReload: {fileID: 0}
+  tommygunShot: []
+  tommygunBulletCasingDrop: {fileID: 0}
+  tommygunDrumMagClick: {fileID: 0}
+  tommygunDiscardEmptyDrumMag: {fileID: 0}
+  tommygunRetrieveNewDrumMag: {fileID: 0}
+  revolverShot: {fileID: 0}
+  revolverReleasePinWheelDrop: {fileID: 0}
+  revolverShakingMultipleBulletCasingsOutOfWheel: {fileID: 0}
+  revolverMultipleBulletCasingHittingGround: {fileID: 0}
+  revolverReloadNewBullet: {fileID: 0}
+  revolverTurnPinWheel: {fileID: 0}
+  revolverSpinPinWheel: {fileID: 0}
+  revolverPinWheelClick: {fileID: 0}
+  meleeHit: []
+  equipment8BallThrow: {fileID: 0}
+  equipmentBrickPhoneThrow: {fileID: 0}
+  equipmentBrickPhoneExplosion: {fileID: 0}
+  equipmentNewEquipment: {fileID: 0}
+  casinoSlotMachines: {fileID: 0}
+  casinoPokerChipsClattering: {fileID: 0}
+  casinoRouletteWheelSpinning: {fileID: 0}
+  casinoRouletteWheelBallHittingWheel: {fileID: 0}
+  casinoRouletteDraggingPokerChips: {fileID: 0}

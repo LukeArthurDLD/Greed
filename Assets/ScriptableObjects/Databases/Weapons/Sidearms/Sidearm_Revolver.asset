@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6372e46aa2f7e184c8f6b893b67afc52, type: 3}
+  m_Name: Sidearm_Revolver
+  m_EditorClassIdentifier: 
+  weaponName: Colt Diamondback
+  weaponCategory: Firearm
+  weaponType: Sidearm
+  fireType: Semi-Automatic
+  reloadType: Pinwheel
+  damageOutput: 50
+  maxRange: 75
+  fireRate: 0.2
+  ammoCount: 6
+  weaponPrefab: {fileID: 0}
+  weaponArtwork: {fileID: 21300000, guid: eb1ef6f7fde343c43806e8c2a76f673d, type: 3}
+  weaponScaleX: 200
+  weaponScaleY: 100

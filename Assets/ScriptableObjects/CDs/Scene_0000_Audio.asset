@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56fcb9cf5088b134bb8aec9bcf34dfc0, type: 3}
+  m_Name: Scene_0000_Audio
+  m_EditorClassIdentifier: 
+  sceneMusic: {fileID: 8535214184089311577, guid: 7e69e7982e603244ba4807142f7494ae, type: 3}
+  characterSFX: {fileID: 0}
+  weaponSFX: {fileID: 0}
+  mainMenuMusic: {fileID: 8300000, guid: a47aa22aebc2ea84bb26d189d4c2d89a, type: 3}
+  footsteps: []
+  startGameSnippet: {fileID: 0}
+  startGameButtonFX: {fileID: 0}
+  exitApplication: {fileID: 0}
+  exitApplicationGameCasinoSlice: {fileID: 0}
+  mouseClick: {fileID: 0}
+  bass: {fileID: 8300000, guid: dac5e89f8669ccd41a70fbdcbda9afe5, type: 3}
+  bass2: {fileID: 8300000, guid: b21e7efbf5466ef4aa3e68c379a037ed, type: 3}
+  bass3: {fileID: 8300000, guid: 09539b6a2abdc01499da2df9d03adb15, type: 3}

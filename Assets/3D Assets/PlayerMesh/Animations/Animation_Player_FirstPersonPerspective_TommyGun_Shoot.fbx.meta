@@ -1,0 +1,553 @@
+fileFormatVersion: 2
+guid: 4855ee5474ea740439b565c5d0c826ef
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: FPS_TommyGun_Shoot
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: FPS_TommyGun_Shoot
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Animation_Player_FirstPersonPerspective_TommyGun_Shoot(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body_Control
+      parentName: Animation_Player_FirstPersonPerspective_TommyGun_Shoot(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Ankle_CTRL
+      parentName: Body_Control
+      position: {x: 0.030972492, y: 0.026506504, z: -0.024762727}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Foot_CTRL
+      parentName: Left_Ankle_CTRL
+      position: {x: 0.0011345744, y: -0.015809786, z: 0.018973691}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Toe_CTRL
+      parentName: Left_Foot_CTRL
+      position: {x: 0.0016232235, y: -0.0064733825, z: 0.02401901}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle1
+      parentName: Left_Ankle_CTRL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Ankle_CTRL
+      parentName: Body_Control
+      position: {x: -0.032938045, y: 0.026530875, z: -0.02471354}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Foot_CTRL
+      parentName: Right_Ankle_CTRL
+      position: {x: -0.0011346006, y: -0.015229286, z: 0.018883007}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Toe_CTRL
+      parentName: Right_Foot_CTRL
+      position: {x: -0.0033054005, y: -0.0072562858, z: 0.02406053}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle2
+      parentName: Right_Ankle_CTRL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Root_CTRL
+      parentName: Body_Control
+      position: {x: -0.00004298604, y: 0.34182447, z: 1.58357e-17}
+      rotation: {x: 0, y: 0.14859359, z: -0, w: 0.98889834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Knee_CTRL
+      parentName: Root_CTRL
+      position: {x: 0.030448493, y: -0.16076887, z: 0.12879738}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Knee_CTRL
+      parentName: Root_CTRL
+      position: {x: -0.030448513, y: -0.16076848, z: 0.12879738}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lower_Spine_CTRL
+      parentName: Root_CTRL
+      position: {x: 0.000024213, y: 0.04095272, z: -4.9217603e-19}
+      rotation: {x: 0, y: 0.15681747, z: -0, w: 0.9876276}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Upper_Spine_CTRL
+      parentName: Lower_Spine_CTRL
+      position: {x: 0.00033795813, y: 0.08477035, z: -0.005815877}
+      rotation: {x: 0, y: 0.16567917, z: -0, w: 0.9861797}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bow_CTRL
+      parentName: Upper_Spine_CTRL
+      position: {x: -0.0003191851, y: 0.0118298335, z: 0.15580878}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Shoulder_CTRL
+      parentName: Upper_Spine_CTRL
+      position: {x: -0.053536806, y: 0.0035198973, z: 0.011654114}
+      rotation: {x: -0.014926411, y: 0.4459568, z: 0.066368625, w: 0.89246565}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Elbow_CTRL
+      parentName: Right_Shoulder_CTRL
+      position: {x: -0.085328564, y: -0.003908043, z: -0.004179657}
+      rotation: {x: 0.15260014, y: 0.075313166, z: -0.03451676, w: 0.9848095}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Hand_CTRL
+      parentName: Right_Elbow_CTRL
+      position: {x: -0.08525027, y: 0.003908043, z: 0.0053308234}
+      rotation: {x: -0.8311702, y: 0.14598598, z: -0.085207336, w: 0.52970177}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Lower_Finger_CTRL
+      parentName: Right_Hand_CTRL
+      position: {x: -0.028286075, y: 0, z: 0.00058265624}
+      rotation: {x: -0.118823275, y: -0.086674534, z: 0.29324093, w: 0.9446578}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Upper_Finger_CTRL
+      parentName: Right_Lower_Finger_CTRL
+      position: {x: -0.016113186, y: 0, z: 0.00036226987}
+      rotation: {x: 0, y: 0, z: 0.36907738, w: 0.92939866}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Lower_Thumb_CTRL
+      parentName: Right_Hand_CTRL
+      position: {x: -0.018066501, y: 0, z: 0.009930507}
+      rotation: {x: 0.7419159, y: 0, z: 0, w: 0.670493}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Upper_Thumb_CTRL
+      parentName: Right_Lower_Thumb_CTRL
+      position: {x: -0.014102383, y: 0, z: 0.009859179}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Shoulder_CTRL
+      parentName: Upper_Spine_CTRL
+      position: {x: 0.053536814, y: 0.0035194396, z: 0.011654117}
+      rotation: {x: -0.07662322, y: -0.58814716, z: -0.6285548, w: 0.5031209}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Elbow_CTRL
+      parentName: Left_Shoulder_CTRL
+      position: {x: 0.085328996, y: -0.003908043, z: -0.004179663}
+      rotation: {x: 0.0064303135, y: -0.47609934, z: -0.01824171, w: 0.8791788}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Hand_CTRL
+      parentName: Left_Elbow_CTRL
+      position: {x: 0.08393258, y: 0.003908043, z: 0.005302909}
+      rotation: {x: -0.12142153, y: 0.099780105, z: -0.011063988, w: 0.9875112}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Lower_Finger_CTRL
+      parentName: Left_Hand_CTRL
+      position: {x: 0.028179398, y: 0, z: 0.00057496846}
+      rotation: {x: -0.11414142, y: 0.05571694, z: -0.37046292, w: 0.920122}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Upper_Finger_CTRL
+      parentName: Left_Lower_Finger_CTRL
+      position: {x: 0.017537022, y: 0, z: 0.0003978759}
+      rotation: {x: 0, y: -0, z: -0.4759067, w: 0.8794958}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Lower_Thumb_CTRL
+      parentName: Left_Hand_CTRL
+      position: {x: 0.01831417, y: 0, z: 0.011636717}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Upper_Thumb_CTRL
+      parentName: Left_Lower_Thumb_CTRL
+      position: {x: 0.015172252, y: 0, z: 0.008180899}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck_CTRL
+      parentName: Upper_Spine_CTRL
+      position: {x: -0, y: 0.032033995, z: 0.0156197855}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head_CTRL
+      parentName: Neck_CTRL
+      position: {x: -0.0003191851, y: 0.017396927, z: -0.00080313085}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Eye_CTRL
+      parentName: Head_CTRL
+      position: {x: -0.013655462, y: 0.021900786, z: 0.14138015}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Eye_CTRL
+      parentName: Head_CTRL
+      position: {x: 0.012303397, y: 0.02190052, z: 0.14138012}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bottom_Lip_CTRL
+      parentName: Head_CTRL
+      position: {x: -6.938894e-20, y: -0.020322947, z: 0.14214562}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Upper_Lip_CTRL
+      parentName: Head_CTRL
+      position: {x: -6.938894e-20, y: 0.00203916, z: 0.14399171}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CenterRoot_JNT
+      parentName: Body_Control
+      position: {x: -0.00004298604, y: 0.34182447, z: -3.9660443e-13}
+      rotation: {x: -0, y: -1, z: -0, w: 0.000000001875824}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftHip_JNT
+      parentName: CenterRoot_JNT
+      position: {x: 0.03092928, y: -0.03092928, z: 0.002004908}
+      rotation: {x: -0.0000058004666, y: 0.019149726, z: 0.001802442, w: 0.99981505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftKnee_JNT
+      parentName: LeftHip_JNT
+      position: {x: -0.00048078876, y: -0.12983958, z: 0.00014323808}
+      rotation: {x: -0.0000000042982715, y: 0.00000001862645, z: -0.0000000020782378, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: LeftAnkle_JNT
+      parentName: LeftKnee_JNT
+      position: {x: 0.0005669857, y: -0.15454912, z: -0.026910875}
+      rotation: {x: 0.0035693476, y: 0.99038106, z: 0.00007986427, w: 0.13832118}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftFoot_JNT
+      parentName: LeftAnkle_JNT
+      position: {x: 0.0011345738, y: -0.021652784, z: 0.01897369}
+      rotation: {x: -0, y: -0, z: -2.0679513e-25, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: LeftToe_JNT
+      parentName: LeftFoot_JNT
+      position: {x: -0.0015127651, y: -0.002304374, z: 0.02401901}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightHip_JNT
+      parentName: CenterRoot_JNT
+      position: {x: -0.030929314, y: -0.030929497, z: 0.00200491}
+      rotation: {x: -0.00034996914, y: -0.050625544, z: -0.0047567016, w: 0.99870634}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: RightKnee_JNT
+      parentName: RightHip_JNT
+      position: {x: 0.0004808, y: -0.129839, z: 0.00014324}
+      rotation: {x: 0.000000006024492, y: 0.0000000074505797, z: -0.0000000031541272, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightAnkle_JNT
+      parentName: RightKnee_JNT
+      position: {x: -0.0024465448, y: -0.15452513, z: -0.026861688}
+      rotation: {x: 0.0093233045, y: -0.9849154, z: -0.0011628846, w: 0.17278132}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightFoot_JNT
+      parentName: RightAnkle_JNT
+      position: {x: -0.0011345999, y: -0.021768622, z: 0.018883007}
+      rotation: {x: 0.018950194, y: -0.0000000074247684, z: -7.521659e-10, w: 0.9998205}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: RightToe_JNT
+      parentName: RightFoot_JNT
+      position: {x: 0.0015128, y: -0.0022129049, z: 0.02406053}
+      rotation: {x: -0, y: -0, z: 1.3877786e-17, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: CenterLowerSpine_JNT
+      parentName: CenterRoot_JNT
+      position: {x: 0.000024213, y: 0.040952723, z: -2.9582283e-33}
+      rotation: {x: -0, y: 0.000000011641532, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: CenterUpperSpine_JNT
+      parentName: CenterLowerSpine_JNT
+      position: {x: 0.00033795813, y: 0.08477037, z: -0.005815877}
+      rotation: {x: -0, y: -0.000000023283064, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: CenterNeck_JNT
+      parentName: CenterUpperSpine_JNT
+      position: {x: 1.9456076e-18, y: 0.032034002, z: 0.0156197855}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CentreHead_JNT
+      parentName: CenterNeck_JNT
+      position: {x: -0.0003191851, y: 0.017396912, z: -0.0008031309}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: CentreBottomLip_JNT
+      parentName: CentreHead_JNT
+      position: {x: -6.938894e-20, y: -0.010973978, z: 0.02481965}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: CenterUpperLip_JNT
+      parentName: CentreHead_JNT
+      position: {x: -6.938894e-20, y: -0.0022563317, z: 0.02666574}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: LeftEye_JNT
+      parentName: CentreHead_JNT
+      position: {x: 0.012303397, y: 0.021900503, z: 0.020890797}
+      rotation: {x: -1.2579e-16, y: 0.00000002328306, z: -0.000000054201987, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: RightEye_JNT
+      parentName: CentreHead_JNT
+      position: {x: -0.013655462, y: 0.021900775, z: 0.020880122}
+      rotation: {x: 7.710127e-16, y: 0.000000023283064, z: -0.000000033114752, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: RightShoulder_JNT
+      parentName: CenterUpperSpine_JNT
+      position: {x: -0.053536806, y: 0.0035198855, z: 0.011654115}
+      rotation: {x: 0.0000000043655737, y: -0.0000000349246, z: 1.5246593e-16, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: RightElbow_JNT
+      parentName: RightShoulder_JNT
+      position: {x: -0.085328564, y: -0.0039080353, z: -0.004179657}
+      rotation: {x: -0.000000011641531, y: 0.0000000349246, z: 0.0000000029103833, w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: RightHand_JNT
+      parentName: RightElbow_JNT
+      position: {x: -0.08525028, y: 0.0039080353, z: 0.0053308234}
+      rotation: {x: 0.0000000072759585, y: 0.000000017462298, z: 0.000000020372681, w: 1}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000001}
+    - name: RightLowerFinger
+      parentName: RightHand_JNT
+      position: {x: -0.02828607, y: -1.5812429e-18, z: 0.00058265653}
+      rotation: {x: 0.000000011641531, y: -0.00000002910383, z: -0.00000004656613, w: 1}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000001}
+    - name: RightUpperFinger
+      parentName: RightLowerFinger
+      position: {x: -0.016113179, y: 1.5844991e-18, z: 0.00036226952}
+      rotation: {x: -0.000000011641532, y: -0.000000008731149, z: 0.000000023283064, w: 1}
+      scale: {x: 0.9999996, y: 0.99999994, z: 0.99999994}
+    - name: RightLowerThumb_JNT
+      parentName: RightHand_JNT
+      position: {x: -0.018066503, y: 3.2562375e-21, z: 0.009930507}
+      rotation: {x: -0.0000000067343056, y: -0.23138894, z: -0.000000016988396, w: 0.97286135}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000005}
+    - name: RightUpperThumb_JNT
+      parentName: RightLowerThumb_JNT
+      position: {x: -0.0141023705, y: 0, z: 0.00985918}
+      rotation: {x: -0, y: -0, z: -2.2747464e-22, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: LeftShoulder_JNT
+      parentName: CenterUpperSpine_JNT
+      position: {x: 0.053536814, y: 0.003519418, z: 0.011654117}
+      rotation: {x: -0, y: -0, z: -0.000000011641532, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: LeftElbow_JNT
+      parentName: LeftShoulder_JNT
+      position: {x: 0.085328996, y: -0.0039080353, z: -0.0041796635}
+      rotation: {x: -0.000000005820766, y: -6.7762636e-17, z: 0.000000017462298, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000005}
+    - name: LeftHand_JNT
+      parentName: LeftElbow_JNT
+      position: {x: 0.083932586, y: 0.0039080353, z: 0.005302909}
+      rotation: {x: 0.000000006548362, y: 1.2705494e-17, z: -0.000000008731149, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: LeftLowerFinger_JNT
+      parentName: LeftHand_JNT
+      position: {x: 0.028179385, y: -5.752167e-19, z: 0.0005749686}
+      rotation: {x: 0.000000010550142, y: 0.0000000138243195, z: 0.000000026193447, w: 1}
+      scale: {x: 1.0000004, y: 1, z: 1.0000001}
+    - name: LeftUpperFinger_JNT
+      parentName: LeftLowerFinger_JNT
+      position: {x: 0.017537026, y: 5.616098e-19, z: 0.00039787558}
+      rotation: {x: -0.000000013460524, y: 0.000000005366017, z: -0.000000017462298, w: 1}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: LeftLowerThumb_JNT
+      parentName: LeftHand_JNT
+      position: {x: 0.01831417, y: 1.4164239e-18, z: 0.011636716}
+      rotation: {x: -9.99484e-10, y: 0.17171007, z: -2.4987035e-10, w: 0.98514754}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: LeftUpperThumb_JNT
+      parentName: LeftLowerThumb_JNT
+      position: {x: 0.01517224, y: -1.9849336e-19, z: 0.008180898}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: Body_Mesh
+      parentName: Animation_Player_FirstPersonPerspective_TommyGun_Shoot(Clone)
+      position: {x: 0.000000009536743, y: 0.30334815, z: 0.004323453}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LEye
+      parentName: Body_Mesh
+      position: {x: -0.000000009536743, y: -0.30334815, z: -0.004323453}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: REye
+      parentName: Body_Mesh
+      position: {x: -0.000000009536743, y: -0.30334815, z: -0.004323453}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body
+      parentName: Body_Mesh
+      position: {x: -0.000000009536743, y: -0.30334815, z: -0.004323453}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TommyGun_Mesh
+      parentName: Animation_Player_FirstPersonPerspective_TommyGun_Shoot(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TommyGun_Trigger
+      parentName: TommyGun_Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TommyGun_Mag
+      parentName: TommyGun_Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TommyGun_Body
+      parentName: TommyGun_Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TommyGun_Rig
+      parentName: Animation_Player_FirstPersonPerspective_TommyGun_Shoot(Clone)
+      position: {x: 0.051750466, y: 0.40457502, z: 0.20500281}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.24868862, y: 0.24868862, z: 0.24868862}
+    - name: TommyGun_Controls
+      parentName: TommyGun_Rig
+      position: {x: 0.038987275, y: 0.24179932, z: -0.27437225}
+      rotation: {x: 0, y: 0.067762725, z: -0, w: 0.99770147}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tommy_UV_And_Rigged:Mag_Cnt
+      parentName: TommyGun_Controls
+      position: {x: -0, y: -0.023884982, z: 0.11171109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tommy_UV_And_Rigged:Trigger_Cnt
+      parentName: TommyGun_Controls
+      position: {x: -0, y: 0.034668006, z: 0.02829276}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TommyGun_Rigged_Bodyl
+      parentName: TommyGun_Rig
+      position: {x: 0.038987275, y: 0.24179932, z: -0.27437225}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tommy_UV_And_Rigged:Trigger_J
+      parentName: TommyGun_Rigged_Bodyl
+      position: {x: -0, y: 0.034668, z: 0.02829276}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TommyGun_Rigged_Mag
+      parentName: TommyGun_Rig
+      position: {x: 0.054092173, y: 0.21791434, z: -0.16368705}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

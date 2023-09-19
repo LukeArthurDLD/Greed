@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c95034afd28565d479de2c9111daf96f, type: 3}
+  m_Name: BlackjackUI
+  m_EditorClassIdentifier: 
+  cardCanvas: {fileID: 1921699241708686845, guid: 74707b7f35fb6844f8b031f59bb0a5df, type: 3}
+  cardCover: {fileID: -5549962427640398426, guid: 74707b7f35fb6844f8b031f59bb0a5df, type: 3}
+  UICanvas: {fileID: 5893361948407411975, guid: 78129e591ddb9ac4d8eb6b7ef52225a9, type: 3}
+  UIContainer: {fileID: 854508890394582437, guid: d7ebb7c3e35a4c24cb735028eab8e66e, type: 3}
+  UICard: {fileID: 8710131439664294596, guid: 6448f927effd07847b936c3191ab14e0, type: 3}
+  standButton: {fileID: 0}
+  hitButton: {fileID: 0}
+  iconSymbol: 
+  iconSuit: {fileID: 0}
+  cardName: 
+  canvas: {fileID: 5893361948407411970, guid: 78129e591ddb9ac4d8eb6b7ef52225a9, type: 3}
+  prefabPlayerSpawn: {fileID: 0}
+  prefabDealerSpawn: {fileID: 0}

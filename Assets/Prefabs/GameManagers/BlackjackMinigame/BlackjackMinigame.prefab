@@ -1,0 +1,288 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6485551120040081222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6485551120040081220}
+  - component: {fileID: 4119141399437610125}
+  - component: {fileID: 6616969131436864896}
+  - component: {fileID: 707772767248995510}
+  - component: {fileID: 1372720767852102343}
+  - component: {fileID: 3825029308751690056}
+  - component: {fileID: 5480165399564850032}
+  - component: {fileID: 2739128624697087051}
+  - component: {fileID: 9090520264624144806}
+  - component: {fileID: 5225402858652052334}
+  - component: {fileID: 4935687784445483651}
+  m_Layer: 0
+  m_Name: BlackjackMinigame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6485551120040081220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485551120040081222}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4119141399437610125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485551120040081222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e106ed6016462704db89fa1a0eabac1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataSource: {fileID: 11400000, guid: 459799230a1b91f4b87ddbd0d8b662bd, type: 2}
+  cardGameSystem: {fileID: 6616969131436864896}
+  blackjackGameSystem: {fileID: 1372720767852102343}
+  blackjackUISystem: {fileID: 2739128624697087051}
+  cardDeck: []
+  playersCards: []
+  playersHand: 0
+  dealersCards: []
+  dealersHand: 0
+--- !u!114 &6616969131436864896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485551120040081222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d77c1fd550056c48aa4a62f294d1749, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blackjackMinigameGameManager: {fileID: 4119141399437610125}
+  deckOperations: {fileID: 707772767248995510}
+--- !u!114 &707772767248995510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485551120040081222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85d1a6acb673df24f9b3781767bf4744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  systemManager: {fileID: 6616969131436864896}
+--- !u!114 &1372720767852102343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485551120040081222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8572e8d64e20e0d49a00355a60ecfe8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blackjackMinigameGameManager: {fileID: 4119141399437610125}
+  basicRules: {fileID: 3825029308751690056}
+  advancedRules: {fileID: 5480165399564850032}
+--- !u!114 &3825029308751690056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485551120040081222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389923abded9f914796c19237bd942ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  systemManager: {fileID: 1372720767852102343}
+--- !u!114 &5480165399564850032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485551120040081222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dbb36e8f461cfb4ca8cc8482ce1f5d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  systemManager: {fileID: 1372720767852102343}
+--- !u!114 &2739128624697087051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485551120040081222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f03eaf32bc73c374b8378f897cdde7f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blackjackMinigameGameManager: {fileID: 4119141399437610125}
+  cardDisplay: {fileID: 9090520264624144806}
+  textDisplay: {fileID: 5225402858652052334}
+  cardCanvas: {fileID: 0}
+  cardBackcover: {fileID: 0}
+  cardTypeText: []
+  playerHandText: {fileID: 0}
+  dealerHandText: {fileID: 0}
+  playerZoneSpawn: {fileID: 0}
+  dealerZoneSpawn: {fileID: 0}
+  UIContainer: {fileID: 0}
+  cardTemplate: {fileID: 0}
+--- !u!114 &9090520264624144806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485551120040081222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46d3c4ed98bfd4b43b6ec1c932575d9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  systemManager: {fileID: 2739128624697087051}
+  playerSpawn: {fileID: 0}
+  dealerSpawn: {fileID: 0}
+  UIContainer: {fileID: 0}
+  cardTemplate: {fileID: 0}
+--- !u!114 &5225402858652052334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485551120040081222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a37f1fe08ada84fb577804fc3c14da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  systemManager: {fileID: 2739128624697087051}
+  playerHandText: {fileID: 0}
+  dealerHandText: {fileID: 0}
+  gameplayModifierTitleText: {fileID: 0}
+  winnersBannerText: {fileID: 0}
+  gameplayModifierText: {fileID: 0}
+  gameplayModifierCategoryImage: {fileID: 0}
+  gameplayModifierTypeImage: {fileID: 0}
+--- !u!82 &4935687784445483651
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485551120040081222}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a47aa22aebc2ea84bb26d189d4c2d89a, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.2
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
